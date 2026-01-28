@@ -1,0 +1,90 @@
+{
+  "total_features": 28,
+  "target_variable": "nivel_riesgo_num",
+  "feature_groups": {
+    "demograficas": [
+      "edad_norm",
+      "sexo_bin"
+    ],
+    "espaciales": [
+      "lat_norm",
+      "lon_norm",
+      "elevacion_norm",
+      "dist_cluster"
+    ],
+    "temporales": [
+      "mes",
+      "semana",
+      "mes_sin",
+      "mes_cos",
+      "a\u00f1o"
+    ],
+    "climaticas": [
+      "humedad_7d",
+      "humedad_14d",
+      "humedad_30d",
+      "humedad_60d",
+      "humedad_min_30d",
+      "humedad_max_30d",
+      "humedad_std_30d",
+      "dias_criticos_30d",
+      "anomalia_humedad"
+    ],
+    "entomologicas": [
+      "densidad_aedes",
+      "distancia_aedes",
+      "densidad_aedes_log",
+      "presencia_aedes_2km",
+      "riesgo_entomologico"
+    ],
+    "interacciones": [
+      "humedad_x_elevacion",
+      "favorabilidad"
+    ],
+    "contexto": [
+      "densidad_casos_local"
+    ]
+  },
+  "all_features": [
+    "edad_norm",
+    "sexo_bin",
+    "lat_norm",
+    "lon_norm",
+    "elevacion_norm",
+    "dist_cluster",
+    "mes",
+    "semana",
+    "mes_sin",
+    "mes_cos",
+    "a\u00f1o",
+    "humedad_7d",
+    "humedad_14d",
+    "humedad_30d",
+    "humedad_60d",
+    "humedad_min_30d",
+    "humedad_max_30d",
+    "humedad_std_30d",
+    "dias_criticos_30d",
+    "anomalia_humedad",
+    "densidad_aedes",
+    "distancia_aedes",
+    "densidad_aedes_log",
+    "presencia_aedes_2km",
+    "riesgo_entomologico",
+    "humedad_x_elevacion",
+    "favorabilidad",
+    "densidad_casos_local"
+  ],
+  "id_variables": [
+    "OBJECTID",
+    "fec_consulta",
+    "county",
+    "nivel_riesgo"
+  ],
+  "class_distribution": {
+    "Medio": 208,
+    "Alto": 190,
+    "Bajo": 175
+  },
+  "creation_date": "2025-12-01 22:28:10"
+}

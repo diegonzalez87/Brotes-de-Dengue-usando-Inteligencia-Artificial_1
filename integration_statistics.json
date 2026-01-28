@@ -1,0 +1,27 @@
+{
+  "total_casos": 573,
+  "total_features": 28,
+  "grupos_features": {
+    "demograficas": 2,
+    "espaciales": 4,
+    "temporales": 5,
+    "climaticas": 9,
+    "entomologicas": 5,
+    "interacciones": 2,
+    "contexto": 1
+  },
+  "distribucion_target": {
+    "Medio": 208,
+    "Alto": 190,
+    "Bajo": 175
+  },
+  "correlaciones_altas": 10,
+  "validaciones_pasadas": true,
+  "top_correlaciones_target": {
+    "favorabilidad": 0.8447912122706255,
+    "humedad_60d": 0.47401513942070267,
+    "humedad_30d": 0.41549144549062866,
+    "humedad_max_30d": 0.3964015470702847,
+    "humedad_14d": 0.3615410736004292
+  }
+}
