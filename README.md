@@ -1,0 +1,2 @@
+# Brotes-de-Dengue-usando-Inteligencia-Artificial_1
+Sistema de predicción de brotes de dengue mediante IA para el Cauca, integrando datos climáticos, entomológicos y epidemiológicos (2015-2022). XGBoost alcanzó 98.84% accuracy y AUC-ROC 1.00. Desplegable como alerta temprana de tres niveles, replicable a otros departamentos y enfermedades vectoriales, con potencial de reducir 10-20% casos nacionales
